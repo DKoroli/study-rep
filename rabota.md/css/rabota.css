@@ -41,11 +41,17 @@ img {
     align-self: center;
     margin: auto;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(2 137 210);
 }
 
 .vac-right::before {
+    content: '+';
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.rezume::before {
     content: '+';
     margin-right: 5px;
     font-size: 15px;
@@ -57,6 +63,35 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
+}
+
+.telefon {
+    font-weight: 400;
+    color: black;
+
+}
+
+.lang {
+    color: black;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.enter, .telefon {
+    align-self: center;
+}
+
+.pading-lang {
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .pading-left {
@@ -71,6 +106,13 @@ img {
     border-color: rgb(2 137 210)
 }
 
+.border-pat {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(2 137 210)
+}
+
 .padding {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -81,6 +123,13 @@ img {
 .margin-left {
     margin-left: 10px;
 }
+
+/* .path[Attributes Style] {
+    d: path("M 4 15 h 2 v 5 h 12 V 4 H 6 v 5 H 4 V 3 a 1 1 0 0 1 1 -1 h 14 a 1 1 0 0 1 1 1 v 18 a 1 1 0 0 1 -1 1 H 5 a 1 1 0 0 1 -1 -1 v -6 Z m 6 -4 V 8 l 5 4 l -5 4 v -3 H 2 v -2 h 8 Z");
+    fill: rgb(2, 137, 210);
+}     */
+
+
 
 /* .d-flex {
     display: flex;
