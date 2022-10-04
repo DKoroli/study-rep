@@ -45,6 +45,12 @@ img {
     color: rgb(2 137 210);
 }
 
+.vac-right::before {
+    content: '+';
+    margin-right: 5px;
+    font-size: 15px;
+}
+
 .container {
     width: 100%;
     margin: 30px;
